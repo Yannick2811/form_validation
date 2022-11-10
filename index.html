@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <div id="container">
+        <div id="heading">
+            <div id="logo"><ion-icon name="school-outline"></ion-icon></div>
+            <h1 id="login-text">Log In</h1>
+            <p>Please login to proceed</p>
+        </div> 
+        <div id="form-container">
+            <form>
+                <div class="form-item">
+                    <label id="email-label" for="email"><ion-icon name="mail-outline"></ion-icon></label>
+                <input type="text" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="form-item">
+                <label id="country-label" for="country"><ion-icon name="earth-outline"></ion-icon></label>
+                <input type="text" name="country" id="country" placeholder="Country">
+                </div>
+                <div class="form-item">
+                    <label id="zip-label" for="zip-code"><ion-icon name="home-outline"></ion-icon></label>
+                    <input type="text" name="zip-code" id="zip-code" placeholder="Zip-Code">
+                </div>
+                <div class="form-item">
+                    <label id="password-label" for="password"><ion-icon name="lock-closed-outline"></ion-icon></label>
+                    <input type="text" name="password" id="password" placeholder="Password"> 
+                </div>
+                <div class="form-item">
+                    <label id="password-verification-label" for="password-verification"><ion-icon name="lock-closed-outline"></ion-icon></label>
+                    <input type="text" name="password-verification" id="password-verification" placeholder="Repeat Your Password"> 
+                </div>
+                <div id="submit-container">
+                    <button type="submit" id="submit">LOG IN</button>
+                </div>
+            </form>
+            <div id="socials">
+                <a id="instagram" class="icon"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a id="twitter" class="icon"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a id="github" class="icon"><ion-icon name="logo-github"></ion-icon></a>
+            </div>
+        </div>      
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

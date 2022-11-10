@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  padding: 4em 0 0 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #333399, #ff00cc);
+}
+
+#container {
+  width: 38em;
+  height: 46em;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.5);
+  position: relative;
+  padding-top: 1.5em;
+  padding-bottom: 0;
+}
+
+#container::before {
+  content: "";
+  position: absolute;
+  background: rgba(255, 255, 355, 0.15);
+  inset: 0;
+  transform: rotate(-5deg);
+  z-index: -1;
+  border-radius: 1rem;
+}
+
+#heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  font-size: 80px;
+  margin: 0;
+}
+
+#login-text {
+  margin: 0;
+}
+
+#form-container {
+  margin: 1.5em 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4em;
+}
+
+#email-label {
+  font-size: 28px;
+}
+
+#country-label {
+  font-size: 28px;
+}
+
+#zip-label {
+  font-size: 28px;
+}
+
+#password-label {
+  font-size: 28px;
+}
+
+#password-verification-label {
+  font-size: 28px;
+}
+
+input {
+  outline: none;
+  background: rgba(255, 255, 355, 0.4);
+  border: none;
+  font-size: 1.3em;
+  border-radius: 100px;
+  padding: 0.4em 0.3em 0.4em 0.8em;
+}
+
+.form-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9em;
+}
+
+#submit-container {
+  margin: 1em 0 0 0;
+  display: flex;
+  justify-content: center;
+  height: 3em;
+}
+
+#submit {
+  background: black;
+  color: white;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 100px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#socials {
+  width: 80%;
+  margin: 1.5em 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+.icon {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+ion-icon {
+  pointer-events: none;
+}
