@@ -181,3 +181,55 @@ ion-icon {
   font-size: 22px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 500px) {
+  #container {
+    width: 80vw;
+    height: 80vh;
+    padding-top: 0.3em;
+  }
+
+  input {
+    font-size: 0.8em;
+  }
+
+  form {
+    gap: 0.5em;
+  }
+
+  #logo {
+    font-size: 56px;
+  }
+
+  #login-text {
+    font-size: 20px;
+  }
+
+  #show-password {
+    right: 0.5em;
+  }
+
+  #show-password-verification {
+    right: 0.5em;
+  }
+
+  #submit {
+    font-size: 0.8em;
+    height: 1.8em;
+    margin: 0;
+    padding: 0;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  #socials {
+    margin: 0;
+  }
+
+  #submit-container {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
