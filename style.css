@@ -131,3 +131,53 @@ input {
 ion-icon {
   pointer-events: none;
 }
+
+/* input:invalid {
+  outline: solid #f55b5b 2px;
+  border-radius: 100px;
+} */
+
+/* input:valid {
+  outline: solid #64f567 2px;
+  border-radius: 100px;
+} */
+
+.error {
+  outline: solid #f55b5b 2px;
+  border-radius: 100px;
+}
+
+.valid {
+  outline: solid 2px #9ffcc8;
+  border-radius: 100px;
+}
+
+#password-container {
+  position: relative;
+}
+
+#show-password {
+  position: absolute;
+  right: 0.8em;
+  top: 0.4em;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+#password-verification-container {
+  position: relative;
+}
+
+#show-password-verification {
+  position: absolute;
+  right: 0.8em;
+  top: 0.4em;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  cursor: pointer;
+}
